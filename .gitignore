@@ -1,0 +1,9 @@
+# Secrets
+.env
+.env.*
+
+# Keep an example configuration if you create one
+!.env.example
+
+# Python
+__pycache__/
