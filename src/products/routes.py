@@ -49,14 +49,8 @@ def update_product(
     if product_data.name is not None:
         product.name = product_data.name
 
-    if product_data.sku is not None:
-        product.sku = product_data.sku
-
-    if product_data.cost_price is not None:
-            product.cost_price = product_data.cost_price
-
-    if product_data.purchase_price is not None:
-            product.purchase_price = product_data.purchase_price
+    if product_data.desription is not None:
+        product.desription = product_data.desription
 
     session.add(product)
     session.commit()
